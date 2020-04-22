@@ -14,7 +14,7 @@ git init
 git add -A
 git commit -m 'deploy'
 ​
-git push -f git@github.com:MUNPEDIA/MUNPEDIA.github.io.git master
+git push -f https://${access_token}@github.com:MUNPEDIA/MUNPEDIA.github.io.git master
 
 ​​
 cd -
